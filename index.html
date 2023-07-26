@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App</title>
+  <link rel="stylesheet" href="assets/Css/all.min.css">
+  <link rel="stylesheet" href="assets/Css/style.css">
+</head>
+
+<body>
+  <div class="todo-container">
+    <div class="popUp" id="pop">
+        <div class="container">
+          <div class="popUp-Massage">
+            <h2 class="popUp-header">worning!!!</h2>
+            <p class="popUp-text">
+              <!-- popup Text -->
+            </p>
+            <button id="popUp-btn" type="button">ok</button>
+          </div>
+        </div>
+    </div>
+    <div class="todo-upper">
+        <div class="layer">
+            <h1>CREATE YOUR <i>TO DO</i></h1>
+            <div class="form">
+                <input class="todo-input" type="text" placeholder="To Do Title ...">
+                 <button type="button" id="save" class="add-item">
+                 Create To Do
+                </button>
+        </div>
+    </div>
+    </div>
+    <div class="todo-lower">
+        <div class="layer">
+            <div class="controls">
+                <div class="filters">
+                  <span class="active" id="all">All</span>
+                  <span id="pending">Pending</span>
+                  <span id="completed">Completed</span>
+                </div>
+                <button class="clear-btn active" onclick="updateFilters()">Clear All</button>
+              </div>
+              <ul class="task-box">
+               
+              </ul>
+        </div>   
+    </div> 
+   </div>
+   <footer class="copyright">
+    &copy; Copyright By
+    <strong>
+      Ahmed Hussien @2023<a
+        href="https://github.com/EngMoody"
+        target="_blank"
+        class="moody"
+      >
+        Moody
+      </a></strong
+    >
+  </footer>
+    
+   <script src="assets/Js/main.js"></script>
+</body>
+
+
+</html>
+
+
+
