@@ -1,13 +1,16 @@
-# GDSC-To-Do-List
+
 <h1 align="center">Hi 👋, I'm Ahmed Hussien</h1>
-<h2 align="left">🌱I’m currently learning #Js</h2>
+<h2 align="left">🌱I’m currently learning  Js @
+<span align="left"> GDSC<p>(Google Developer Student Clubs )</p></span></h2>
+<h1 align="center">Welcome to this project</h1>
+<h2 align="left "> My Project Name is => TO DO list with local Storage  </h2>
+
 
 
 
 
 <p align="left">
-<h1 align="center">Welcome to this project</h1>
-<h2 align="left "> My Project Name is => TO DO list with local Storage  </h2>
+  
   
 <h3>This project is about  simple To Do List Using Only HTML , and CSS and JS 🛠</h3>
 <ul>
